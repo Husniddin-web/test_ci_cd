@@ -24,4 +24,4 @@ jobs:
         with:
           file: Dockerfile
           push: true
-          tags: ${{vars.DOCKERHUB_USERNAME}}
+          tags: ${{vars.DOCKERHUB_USERNAME}}/ci_cd_test:latest
